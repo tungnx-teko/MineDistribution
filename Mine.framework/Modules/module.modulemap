@@ -1,0 +1,11 @@
+framework module Mine {
+  umbrella header "Mine.h"
+
+  export *
+  module * { export * }
+}
+
+module Mine.Swift {
+    header "Mine-Swift.h"
+    requires objc
+}
